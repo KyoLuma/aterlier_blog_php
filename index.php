@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Formulaire</title>
 </head>
 <body>
 
@@ -15,7 +15,7 @@
     </div>
     <div>
         <label for="prenom">Prénom :</label>
-        <input id="prenom" type="text" name="Prenom" />
+        <input id="prenom" type="text" name="prenom" />
     </div>
     <div>
         <label for="age">Age :</label>
@@ -24,6 +24,7 @@
     <div>
         <label for="nom">Langage :</label>
         <select name="langage">
+            <option value ='' disabled selected=""> Choisissez votre langage </option>
             <option value="JS">JS</option>
             <option value="PHP">PHP</option>
             <option value="Ruby">Ruby</option>
